@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSC309 A1 - Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <!--Reference: On week 2 lecture, professor said we can use the code which he show on the lecture.-->
+    <ul class="navigation_bar_container">
+      <li><a href="index.html" id="link_1">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#" class="current_page">Contact</a></li>
+    </ul>
+
+  </header>
+
+  
+  
+
+
+  <!--Main content in this webpage-->
+  <main>
+
+    <!--My personal image-->
+    <div class="content_container">
+
+      <img src="my_image.JPG" alt="my face in the portrait" id="image">
+      <!--contact info block-->
+
+
+      <!--My contact name-->
+
+      <p id="contact_name">
+        Chieh-An Chang
+      </p>
+          
+      <!--My contact email-->
+      <a href="mailto:chiehan.chang@cs.toronto.edu?subject=Bug%20Found&body=I%20found%20the%20following%20bug%20on%20your%20website:%0A%0A" id="email">chiehan.chang@mail.utoronto.ca</a>
+
+      <!--feedback form block-->
+
+      <form action="https://csc309.teach.cs.toronto.edu/a1/submit/" method="post" class="form_container">
+      
+          <div>
+            <!--client email-->
+            <label id="client_email" for="email">Your Email:</label>
+            <input type="email" required id="email_field", name="email">
+          </div>
+          
+      
+          <div id=feedback_container>
+          <!--Feedback contact-->
+            <label id="feedback">Feedback:</label>
+            <textarea name="feedback" placeholder="Enter your feedback here" required id="feedback_field" ></textarea>
+          </div>
+        
+        <!--Attachement-->
+        
+          <div>
+            <label id="Attachment" >Attachment:</label >
+            <input type="file" required name="attachments" id="select_attachment" >
+          </div>
+         
+
+        
+        <!--Personal info aggreement-->
+
+        
+        <div>
+          <input type="checkbox" required id="checkbox" name="consent">
+          <label id="agreement">You agree to receive emails from me</label >
+        </div>
+        
+        
+        <!--Submit button-->
+
+        <div id="submit_field">
+
+          <input type="submit" value="Send Feedback" required id="submit_buttom">
+
+        </div>
+          
+      
+      </form>
+      
+
+    </div>
+    
+  
+  </main>
+
+  <footer>
+
+    Copyright 2023 by chang144.
+  
+  </footer>
+
+
+</body>
+</html>
