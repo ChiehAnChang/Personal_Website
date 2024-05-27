@@ -51,7 +51,7 @@ body{
    *
 */
 header{
-   background-color: #333333;
+   background-color: darkseagreen;
 }
 header h1{
    text-align: center;
@@ -86,7 +86,7 @@ nav a:hover{
    *
 */
 main{
-   background-color: #BBBBBB;
+   background-color: antiquewhite;
 }
 section{
    display: flex;
@@ -125,7 +125,7 @@ footer{
    display: grid;
    grid-template-areas: "Contact"
                         "Copyright";
-   background-color: #333333;
+   background-color: #C58940;
    padding-top: 2rem;
 
 }
@@ -150,6 +150,10 @@ footer .Contact{
    justify-self: center;
    align-self: center;
    text-align: center;
+}
+
+hr{
+   color: white;
 }
 
 
