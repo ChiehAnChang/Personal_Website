@@ -1,0 +1,23 @@
+/* Custom styling */
+body {
+    background-color: antiquewhite;
+  }
+  
+  /* Hover shadow for cards */
+  .card:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Add subtle borders to cards */
+  .card {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Align footer text */
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  

@@ -1,0 +1,87 @@
+/* Everything Need to apply*/
+
+* {
+
+    font-family: sans-serif;
+ }
+ 
+ ul{
+    padding-left: 2%;
+ }
+ 
+ 
+ body{
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 0px;
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "header"
+                         "main"
+                         "footer;
+    
+    
+ }
+ 
+ /*
+    *
+    *************
+    *  Header  *
+    *************
+    *
+ */
+ header {
+   background-color: darkseagreen;
+ }
+ header h1 {
+   color: #fff;
+   margin: 0;
+ }
+ /* 導覽列連結的樣式 */
+ header .nav-link {
+   color: #fff;
+ }
+ header .nav-link.active {
+   background-color: #0d6efd; 
+   color: #fff;
+ }
+ header .nav-link:hover {
+   background-color: #00b8d4;
+   color: #fff;
+ }
+
+
+ /*
+    *
+    *******************
+    *  Footer  *
+    *******************
+    *
+ */
+ 
+
+
+ footer{
+    background-color: darkseagreen;
+ }
+ 
+ footer ul{
+    margin-left: 25%;
+    margin-right: 25%;
+    list-style-type: none;
+    display: flex;
+    column-gap: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0px;
+ }
+ 
+ footer p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+ }
+ 
+ 
