@@ -1,0 +1,9 @@
+# _config.yml
+
+# A basic site title and description—optional, but helpful.
+title: "My GitHub Pages Site"
+description: "Just another awesome site"
+
+# Exclude certain files or directories so Jekyll won’t process them.
+exclude:
+  - bootstrap-5.3.3/
